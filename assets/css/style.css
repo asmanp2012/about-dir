@@ -1,0 +1,36 @@
+.btn {
+  --bs-body-font-family: 'vazirmatn-roundot-vf';
+  --bs-btn-font-family: var(--bs-body-font-family);
+  --bs-btn-font-weight: 700;
+}
+
+.main-page {
+  /* box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.15); */
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px 10px 20px 10px;
+  /* background-color: #FFFFFF; */
+  border-radius: 20px 20px 20px 20px;
+  max-width: 350px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-page p {
+  margin-bottom: 0;
+}
+
+.logo {
+  text-indent: -100000px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-justify-center {
+  text-align-last: center;
+}
