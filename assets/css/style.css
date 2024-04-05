@@ -27,6 +27,10 @@
   text-indent: -100000px;
 }
 
+.cover-logo {
+  background-size: cover;
+}
+
 .text-justify {
   text-align: justify;
 }
