@@ -29,6 +29,10 @@
 
 .cover-logo {
   background-size: cover;
+  /* background-attachment: fixed; removed for Android */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .text-justify {
